@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>米家智能家居展示</title>
+    <link rel="icon" href="http://ow3n2dxwg.bkt.clouddn.com/King.ico" type="image/x-ico">
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+    <div class="wrapper">
+    	<div class="main">
+    	<div class="title">
+    		<h1>无线开关</h1>
+    		<h2>this is switch</h2>
+    		<p class="goods"><span class="goods-title">产品列表:</span><span class="goods-name"><a href="socket.html">多功能网关</a></span><span class="goods-name"><a href="pir.html">人体传感器</a></span><span class="goods-name"><a href="switch.html" class="active">无线开关</a></span></p>
+    	</div>
+        <div class="page_container">
+
+          <div id="i3d" class="interactive_3d">
+
+            <img src="images/switch/frame_1.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.js"></script>
+	<script type="text/javascript" src="jquery.interactive_3d.js"></script>
+	<script type="text/javascript">
+		$(document).ready( function() {
+	    $("#i3d").interactive_3d({
+	      frames: 87
+	    });
+	  });
+	</script>
+</body>
+</html>
